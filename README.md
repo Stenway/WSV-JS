@@ -1,1 +1,1 @@
-# WSV-JS
+# WSV with JS
