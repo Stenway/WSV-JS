@@ -198,7 +198,7 @@ class WsvSerializer {
 	
 	static __containsSpecialChar(chars) {
 		for (var c of chars) {
-			if (WsvChar.isWhitespace(c) || c == CODEPOINT_DOUBLEQUOTE || c == CODEPOINT_HASH) {
+			if (WsvChar.isWhitespace(c) || c == CODEPOINT_LINEFEED || c == CODEPOINT_DOUBLEQUOTE || c == CODEPOINT_HASH) {
 				return true;
 			}
 		}
